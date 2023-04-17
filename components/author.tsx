@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Author(){
     return( 
-        <main className="p-5 text-center bg-white">
+        <main className="p-5 row-span-2">
             <div>
                 <Image src="" width="150" height="150" alt="..." />
             </div>
@@ -14,8 +14,6 @@ export default function Author(){
                 <p>descrição breve</p>
             </div>
             <button><Link href="/sobre">Mais a respeito</Link></button>
-
-            <hr />
         </main>
     )
 }
