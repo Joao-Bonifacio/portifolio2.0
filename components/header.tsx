@@ -5,7 +5,7 @@ export default function Header() {
         <>
             <header>
                 <span>
-                    <h1>Hello</h1>
+                    <h1>🔵</h1>
                     <nav>
                         <ul>
                             <li><Link href="/">Home</Link></li>
