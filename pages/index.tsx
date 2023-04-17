@@ -7,12 +7,13 @@ import Projects from "@components/projects"
 export default function Home() {
   return (
     <>
-      <h1>Hello World!</h1>
-      <Author></Author>
-      <Hability></Hability>
-      <Expert></Expert>
-      <Projects></Projects>
-      <Galery></Galery>
+      <div className="bg-gray-300">
+        <Author></Author>
+        <Hability></Hability>
+        <Expert></Expert>
+        <Projects></Projects>
+        <Galery></Galery>
+      </div>
     </>
   )
 }

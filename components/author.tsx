@@ -6,7 +6,7 @@ export default function Author(){
         <>
             <main>
                 <div>
-                    <Image src="" width="150" height="150" alt="" />
+                    <Image src="" width="150" height="150" alt="..." />
                 </div>
                 <div>
                     <h4>João Júnior</h4>

@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
   <>
   <Head>
-    <title>Portifolio</title>
+    <title>Portfolio</title>
   </Head>
   <Header></Header>
   <Component {...pageProps} />
