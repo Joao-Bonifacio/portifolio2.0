@@ -1,7 +1,8 @@
+import React from 'react'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import Header from '../components/header'
-import React from 'react'
+import Footer from '../components/footer'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -11,6 +12,7 @@ export default function App({ Component, pageProps }: AppProps) {
   </Head>
   <Header></Header>
   <Component {...pageProps} />
+  <Footer></Footer>
   </>
   )
 }
