@@ -8,18 +8,26 @@ export default function Home() {
   return (
     <>
       <div className="bg-gray-300 p-10">
-        <div className="bg-gray-300 flex flex-wrap m-auto justify-center w-full">
-          <div className="p-5 sm:w-1/2 lg:w-1/3 xl:w-1/3 rounded-xl bg-gray-500 max-w-sm min-w-sm flex flex-wrap mr-3 m-auto mb-5">
+        <div className="bg-gray-300 flex flex-wrap m-auto justify-center items-center w-full">
+          
+          <div className="p-5 rounded-xl bg-gray-500 max-w-sm min-w-sm flex flex-wrap mb-5 mx-auto mm:w-1/2 ll:w-1/2 xl:w-1/3">
             <Author></Author>
           </div>
-          <div className="xl:w-1/3 sm:w-1/2 lg:w-1/3 mr-3 m-auto">
+
+          <div></div>
+          
+          <div className="mx-auto ll:w-1/2 xl:w-1/3 mm:w-1/2">
             <Hability></Hability>
             <Expert></Expert>
           </div>
-          <div className="xl:w-1/3 sm:w-1/2 lg:w-1/3 mr-3 m-auto">
+
+          <div></div>
+          
+          <div className="mx-auto ll:w-1/2 xl:w-1/3 mm:w-1/2">
             <Projects></Projects>
             <Galery></Galery>
           </div>
+
         </div>
       </div>
     </>
