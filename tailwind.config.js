@@ -6,7 +6,14 @@ module.exports = {
   ],
   darkMode: false, // ou 'media' ou 'class'
   theme: {
-    extend: {},
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'll': '1278px',
+      'xl': '1300px',
+      '2xl': '1536px',
+    },
   },
   variants: {
     extend: {},
