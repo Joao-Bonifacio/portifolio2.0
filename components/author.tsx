@@ -6,7 +6,7 @@ export default function Author(){
         <main className="m-auto">
             <div className="w-full">
                 <div className="m-auto text-center">
-                    <Image src="" width="200" height="200" alt="..." />
+                    <Image src="" width="215" height="215" alt="..." />
                 </div>
             </div>
             <div className="w-full">
@@ -17,7 +17,7 @@ export default function Author(){
                 <p>descrição breve: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam blanditiis, beatae quidem hic nihil ipsum exercitationem vero dolore voluptates, rem fugiat et sequi iure consectetur ratione, doloribus natus laudantium ut.</p>
             </div>
 
-            <button className="w-full mt-6 mb-5"><Link href="/sobre">Mais a respeito</Link></button>
+            <button className="w-full mt-6 mb-5 text-blue-800 font-bold"><Link href="/sobre">Mais a respeito</Link></button>
         </main>
     )
 }

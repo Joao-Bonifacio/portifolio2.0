@@ -22,7 +22,7 @@ export default function Hability() {
                     <li>Cyber security</li>
                 </ul>
             </div>
-            <button className="w-full mt-2 mb-2 text-center">Mais detalhes</button>
+            <button className="w-full mt-2 mb-2 text-center text-blue-800 font-bold">Mais detalhes</button>
         </div>
     )
 }

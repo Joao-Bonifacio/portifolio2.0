@@ -4,13 +4,12 @@ export default function Projects(){
             <h4 className="text-center">Projetos</h4>
             <hr />
             <ul>
-                <li>NewsLetter: link</li>
-                <li>PokeApi: link</li>
-                <li>upStep: link</li>
-                <li>Trade Ballance: link</li>
-                <li>Forca: link</li>
-                <li>Jogo da velha: link</li>
-                <li>Movie hank: link</li>
+                <li><span className="text-blue-800">NewsLetter:</span> Site de noticias com MongoDB.</li>
+                <li><span className="text-blue-800">PokeApi:</span> Lista de pokemons.</li>
+                <li><span className="text-blue-800">upStep:</span> Site de planejamento e desenvolvimento pessoal.</li>
+                <li><span className="text-blue-800">Trade Ballance:</span> Gráfico de  variação patrimonial (dados armazenados no navegador).</li>
+                <li><span className="text-blue-800">Forca:</span> Jogo da forca (boneco feito 100% com css).</li>
+                <li><span className="text-blue-800">Movie hank:</span> Lista de filmes/series mais assistidos (consumo da API the moovie database)</li>
             </ul>
         </div>
     )
