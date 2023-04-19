@@ -1,6 +1,6 @@
 export default function Projects(){
     return(
-        <div className="p-5 w-full sm:w-1/2 lg:w-1/3">
+        <div className="bg-gray-500 p-5 w-full mb-5 rounded-xl">
             <h4 className="text-center">Projetos</h4>
             <hr />
             <ul>
