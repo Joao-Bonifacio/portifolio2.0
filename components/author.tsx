@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Author(){
     return( 
-        <main>
+        <main className="m-auto">
             <div className="w-full">
                 <div className="m-auto text-center">
                     <Image src="" width="200" height="200" alt="..." />
