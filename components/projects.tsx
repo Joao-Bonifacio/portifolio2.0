@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Projects(){
     return(
         <div className="bg-gray-400 w-full mb-5 rounded-xl m-auto">
@@ -7,10 +9,13 @@ export default function Projects(){
                 <li><span className="text-blue-800">NewsLetter:</span> Site de noticias com MongoDB.</li>
                 <li><span className="text-blue-800">PokeApi:</span> Lista de pokemons.</li>
                 <li><span className="text-blue-800">upStep:</span> Site de planejamento e desenvolvimento pessoal.</li>
-                <li><span className="text-blue-800">Trade Ballance:</span> Gráfico de  variação patrimonial (dados armazenados no navegador).</li>
+                <li><span className="text-blue-800">Trade Ballance:</span> Gráfico de  variação patrimonial.</li>
                 <li><span className="text-blue-800">Forca:</span> Jogo da forca (boneco feito 100% com css).</li>
-                <li><span className="text-blue-800">Movie hank:</span> Lista de filmes/series mais assistidos (consumo da API the moovie database)</li>
+                <li><span className="text-blue-800">Movie hank:</span> Hanking de filmes/series mais assistidos.</li>
             </ul>
+            <button className="w-full mt-6 mb-5 text-blue-800 font-bold underline hover:text-blue-950">
+                <Link href="/projetos">Mais detalhes</Link>
+            </button>
         </div>
     )
 }

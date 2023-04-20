@@ -10,15 +10,15 @@ export default function Author(){
                 </div>
             </div>
             <div className="w-full">
-                <div className="p-5 bg-gray-800"> 
+                <div className="p-5 bg-gray-800 rounded-md text-gray-300"> 
                     <h4>João Júnior</h4>
                     <p>Estudante de ciências da computação</p>
                     <p>Desenvolvedor Full-Stack</p>
                 </div> 
-                <p className="p-5">descrição breve: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam blanditiis, beatae quidem hic nihil ipsum exercitationem vero dolore voluptates, rem fugiat et sequi iure consectetur ratione, doloribus natus laudantium ut.</p>
+                <p className="p-5"><span className="text-blue-600 font-bold">Descrição:</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam blanditiis, beatae quidem hic nihil ipsum exercitationem vero dolore voluptates, rem fugiat et sequi iure consectetur ratione, doloribus natus laudantium ut.</p>
             </div>
 
-            <button className="w-full mt-6 mb-5 text-blue-800 font-bold"><Link href="/sobre">Mais a respeito</Link></button>
+            <button className="w-full mt-6 mb-5 text-blue-800 font-bold underline hover:text-blue-950"><Link href="/sobre">Mais detalhes</Link></button>
         </main>
     )
 }
