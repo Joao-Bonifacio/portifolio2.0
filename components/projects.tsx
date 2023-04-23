@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Projects(){
     return(
-        <div className="bg-gray-400 w-full mb-5 rounded-xl m-auto">
+        <div className="bg-gray-300 w-full mb-5 rounded-xl m-auto">
             <h4 className="text-center p-1 bg-gray-800 rounded-t-xl text-gray-300">Projetos</h4>
             <hr />
             <ul className="p-5">

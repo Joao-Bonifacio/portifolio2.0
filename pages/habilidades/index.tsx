@@ -1,3 +1,13 @@
 export default function Habilitys(){
-    return <h1>Principais habilidades</h1>
+    return(
+        <div className="bg-gray-400 flex flex-wrap">
+            <div>TypeScript</div>
+            <div>TypeScript</div>
+            <div>TypeScript</div>
+            <div>TypeScript</div>
+            <div>TypeScript</div>
+            <div>TypeScript</div>
+            <div>TypeScript</div>
+        </div>
+    )
 }

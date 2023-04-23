@@ -4,9 +4,12 @@ import Link from "next/link"
 export default function Footer(){
     return(
         <>
-        <footer className="bg-gray-500 w-full fixed bottom-0 p-3 flex justify-between">
-            <div><FaUserAlt className="inline mr-2"/>João Júnior &copy; 2023</div>
-            <div className="flex flex-wrap">
+        <footer className="bg-gray-500 w-full fixed bottom-0 h-14 p-3 flex justify-between">
+            <div className="mt-1">
+                <FaUserAlt className="inline mr-2"/>
+                João Júnior &copy; 2023
+            </div>
+            <div className="flex flex-wrap mt-2">
                 <Link href="https://github.com/Joao-Bonifacio" target="blank"> 
                     <FaGithub className="mr-3 text-xl" /> 
                 </Link>
