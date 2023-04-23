@@ -25,7 +25,7 @@ export default function Hability() {
                     <li>Desenho</li>
                 </ul>
             </div>
-            <Link href="/habilidades">
+            <Link href="/conhecimentos">
                 <button className="w-full mb-4 text-center text-blue-800 font-bold underline hover:text-blue-950">Mais detalhes</button>
             </Link>
         </div>
