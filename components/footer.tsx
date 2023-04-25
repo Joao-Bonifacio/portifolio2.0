@@ -11,7 +11,7 @@ export default function Footer(){
             </div>
             <div className="flex flex-wrap mt-1">
                 <Link href="https://github.com/Joao-Bonifacio" target="blank"> 
-                    <FaGithub className="mr-3 text-xl" /> 
+                    <FaGithub className="mr-3 text-xl" />
                 </Link>
                 <Link href="https://www.linkedin.com/in/jo%C3%A3o-j%C3%BAnior-7499b6218/" target="blank">
                     <FaLinkedin className="mr-3 text-xl" />
