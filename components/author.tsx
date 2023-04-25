@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function Author(){
     return( 
         <main className="m-auto">
-            <Image src="/images/foto.jpg" width="215" height="215" alt="..." className="mx-auto my-2" style={{borderRadius: '100%'}}/>
+            <Image src="/images/foto.jpg" width="215" height="215" alt="autor" className="mx-auto my-2" style={{borderRadius: '100%'}}/>
             <div className="w-full">
                 <div className="p-5 bg-gray-800 rounded-md text-gray-300"> 
                     <h4>João Júnior</h4>
