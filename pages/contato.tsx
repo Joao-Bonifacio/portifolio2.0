@@ -1,4 +1,5 @@
-import { FaGithub, FaLinkedin, FaInstagram, FaUserAlt } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa"
+import { BiMailSend } from "react-icons/bi";
 import Link from "next/link"
 
 export default function Contact() {
@@ -13,13 +14,20 @@ export default function Contact() {
                     <h1 className="text-4xl mb-8"> Redes Sociais </h1>
                     <div className="flex flex-wrap mt-1">
                         <Link href="https://github.com/Joao-Bonifacio" target="blank">
-                            <FaGithub className="mr-3 text-8xl text-gray-800" />
+                            <abbr title="GitHub"><FaGithub className="mr-3 text-8xl text-gray-800" /></abbr>
                         </Link>
                         <Link href="https://www.linkedin.com/in/jo%C3%A3o-j%C3%BAnior-7499b6218/" target="blank">
-                            <FaLinkedin className="mr-3 text-8xl text-blue-700" />
+                            <abbr title="Linkedin">
+                                <FaLinkedin className="mr-3 text-8xl text-blue-700" />
+                            </abbr>
                         </Link>
                         <Link href="https://www.instagram.com/jao_jj_/" target="blank">
-                            <FaInstagram className="text-8xl text-purple-700" />
+                            <abbr title="Instagram">
+                                <FaInstagram className="text-8xl text-purple-700" />
+                            </abbr>
+                        </Link>
+                        <Link href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNtdgsgqDrdgKfFqsHFTGjMszMfGhGWSMlDfZxRcZMQTpbjJznJPfmXZLrSknvGmHVMztL" target="blank">
+                            <abbr title="Enviar e-mail"><BiMailSend className="text-8xl text-red-700"/></abbr>
                         </Link>
                     </div>
 
