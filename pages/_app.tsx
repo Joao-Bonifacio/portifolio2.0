@@ -7,13 +7,13 @@ import Footer from '../components/footer'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-  <>
-  <Head>
-    <title>Portfolio</title>
-  </Head>
-  <Header></Header>
-  <Component {...pageProps} />
-  <Footer></Footer>
-  </>
+    <>
+      <Head>
+        <title>Portfolio</title>
+      </Head>
+      <Header></Header>
+      <Component {...pageProps} />
+      <Footer></Footer>
+    </>
   )
 }
