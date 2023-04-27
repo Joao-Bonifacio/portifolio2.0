@@ -7,20 +7,8 @@ export default function Contact() {
         <>
             <h1 className="text-center text-xl text-gray-300 bg-gray-600 p-2"> Contato </h1>
             <div className="flex flex-wrap p-8 bg-gray-300">
-                <div className="bg-gray-400 p-5 rounded-md mb-8 mx-auto">
-                    <h1 className="text-center text-xl text-gray-300 bg-gray-600 p-2 rounded-t-md"> Enviar Mensagem </h1>
-                    <form action="" method="post" className="bg-gray-300 p-5 rounded-b-md">
-                        <div className="p-2 flex justify-between">
-                            <input type="text" name="" id="" placeholder="Nome:" className="p-3" size={18}/>
-                            <input type="email" name="" id="" placeholder="Email:" className="p-3 mr-0" size={18}/>
-                        </div>
-                        <div className="p-2">
-                            <textarea name="" id="" cols={50} rows={11} placeholder="Digitar mensagem:" className="p-3"></textarea>
-                        </div>
-                        <div className="text-center">
-                            <button type="submit" className="px-5 py-2 bg-blue-400 rounded-md hover:bg-blue-500">Enviar</button>
-                        </div>
-                    </form>
+                <div className="bg-gray-300 p-1 rounded-md mb-8 mx-auto">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdOHOQiWq7CPTLkgi5eDfyGGI7IfA09KYrLeWzOxm5RadncKg/viewform?embedded=true" width="540" height="619">Carregando…</iframe>
                 </div>
                 <div className="bg-gray-300 p-1 rounded-md mb-8 max-w-3xl mx-auto">
                     <h1 className="text-4xl mb-8"> Redes Sociais </h1>
