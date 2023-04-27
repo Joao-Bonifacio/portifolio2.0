@@ -25,8 +25,15 @@ export default function Contact() {
     const submitForm = (e: React.FormEvent) => {
         e.preventDefault()
         axios.post('./api/contact', data)
-            .then(() => console.log('Enviado com sucesso'))
-            .catch(e => console.log('Erro ao enviar \n', e.message))
+            .then(() => {
+                setData({
+                    name: '',
+                    email: '',
+                    message: ''
+                })
+                alert('Enviado com sucesso')
+            })
+            .catch(e => console.log('Erro ao enviar', e.message))
     }
     return (
         <>
