@@ -31,7 +31,6 @@ export default function Contact() {
                     email: '',
                     message: ''
                 })
-                alert('Enviado com sucesso')
             })
             .catch(e => console.log('Erro ao enviar', e.message))
     }
@@ -58,7 +57,7 @@ export default function Contact() {
                     <h1 className="text-4xl mb-8"> Redes Sociais </h1>
                     <div className="flex flex-wrap mt-1">
                         <Link href="https://github.com/Joao-Bonifacio" target="blank">
-                            <abbr title="GitHub"><FaGithub className="mr-3 text-8xl text-gray-800" /></abbr>
+                            <abbr title="GitHub"><FaGithub className="mr-3 text-8xl text-gray-700" /></abbr>
                         </Link>
                         <Link href="https://www.linkedin.com/in/jo%C3%A3o-j%C3%BAnior-7499b6218/" target="blank">
                             <abbr title="Linkedin">
