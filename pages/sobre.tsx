@@ -48,7 +48,7 @@ export default function About(){
             </div>
             <div className="p-10 mx-auto bg-gray-200 mb-[-18px]">
                 <p className="mb-3 px-8 text-justify indent-5">
-                    Estou voltando meu foco principal novamente para a área da programação, estava um tempo empenhado em me desenvolver na carreira de trader no mercado financeiro, então a programação sesse período, era mais uma &quot;side quest&quot;, agora que desenvolvi as skills necessárias, estou retornando para a área da tecnologia fazendo dela novamente minha &quot;main quest de estudo&quot;, trazendo a bagajem do mercado financeiro, seus termos técnicos e conhecimento sobre seu funcionamento, isso me facilita desenvolver softwares também para essa área específica.
+                    Estou dedicando meu foco principal novamente para a área da programação, estava um tempo empenhado em me desenvolver na carreira de trader no mercado financeiro, então a programação sesse período, era mais uma &quot;side quest&quot;, agora que desenvolvi as skills necessárias, estou retornando para a área da tecnologia fazendo dela novamente minha &quot;main quest de estudo&quot;, trazendo a bagajem do mercado financeiro, seus termos técnicos e conhecimento sobre seu funcionamento, isso me facilita desenvolver softwares também para essa área específica.
                 </p>
                 <p className="px-8 text-justify indent-5">
                     Há alguns fatores e práticas que eu concidero ter facilitado bastante meu aprendizado em programação (além da prática), dentre elas, vale destacar:

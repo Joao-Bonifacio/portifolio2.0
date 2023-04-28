@@ -11,7 +11,14 @@ export default function Author(){
                     <p>Estudante de ciências da computação</p>
                     <p>Desenvolvedor Full-Stack</p>
                 </div> 
-                <p className="p-5"><span className="text-blue-600 font-bold">Descrição:</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam blanditiis, beatae quidem hic nihil ipsum exercitationem vero dolore voluptates, rem fugiat et sequi iure consectetur ratione, doloribus natus laudantium ut.</p>
+                <p className="p-5 mt-[-6px]">
+                    <br />
+                    <span className="text-blue-700">Front-End:</span> React, Next, JavaScript, TypeScript, Bootstrap, Tailwind, html+css, etc...
+                    <br />
+                    <span className="text-blue-700">Back-End:</span> Express, JavaScript, Typescript, MongoDB, MySQL, etc...
+                    <br />
+                    <span className="text-blue-700">CLI:</span> Python e ShellScript.
+                </p>
             </div>
             <button className="w-full mt-2 mb-5 text-blue-800 font-bold underline hover:text-blue-950"><Link href="/sobre">Mais detalhes</Link></button>
         </main>
