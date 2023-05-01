@@ -24,7 +24,7 @@ export default function Contact() {
 
     const submitForm = (e: React.FormEvent) => {
         e.preventDefault()
-        axios.post('./api/contact', data)
+        axios.post('./api/contactMessage', data)
         .then(() => {
             setData({
                 name: '',
