@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "image": "/images/upStep/upStep-cover.jpg",
+        "title": "upStep",
+        "short_desc": "Aperfeiçoamento da produtividade, com gráficos interativos e editáveis, com áreas de conhecimento e projeções, controle de tempo e anotações."
+    },
+    {
+        "id": 2,
+        "image": "/images/newsLetter/cover.jpg",
+        "title": "newsletter",
+        "short_desc": "Site de notícias com integração com banco de dados mongoDB, busca de notícias e hank de mais visitadas."
+    },
+    {
+        "id": 3,
+        "image": "/images/tradeBallance/cover.jpg",
+        "title": "trade ballance",
+        "short_desc": "Gráfico interativo de variação de patrimonio, com valores editáveis, tais valores foram salvos no navegador do cliente."
+    },
+    {
+        "id": 4,
+        "image": "/images/hangMan/cover.jpg",
+        "title": "jogo da forca",
+        "short_desc": "Jogo da forca baseado em manipulação de strings com JavaScript. todas as partes do boneco foram construidas inteiramente com CSS."
+    },
+    {
+        "id": 5,
+        "image": "/images/movieDB/cover.jpg",
+        "title": "movie hank",
+        "short_desc": "Hank de filmes/series mais assistidas. Dados fornecidos pela API the movie db, com slide de fotos e os títulos contendo nomes e sinopses."
+    },
+    {
+        "id": 6,
+        "image": "/images/jokenpo/cover.jpg",
+        "title": "jokenpo",
+        "short_desc": "Jogo jokenpo, player vs máquina, com geração de jogada aleatória por parte da máquina do cliente."
+    },
+    {
+        "id": 7,
+        "image": "/images/pokedex/secondary.jpg",
+        "title": "pokedex",
+        "short_desc": "Geração de pokemons aleatórios de acordo com o número de pokemons passados como argumento na página."
+    },
+    {
+        "id": 8,
+        "image": "/images/calcOB/cover.jpg.png",
+        "title": "calculadora OB",
+        "short_desc": "Programa de linha de comando em python para projeções de resultados/rentabilidade em opções binárias de acordo com cada tipo de gerenciamento."
+    }
+]
