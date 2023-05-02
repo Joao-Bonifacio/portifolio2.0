@@ -12,22 +12,28 @@ export default function Projects(){
         return(
             <>
                 <h1 className="text-center text-xl text-gray-300 bg-gray-600 p-2"> {project?.title} </h1>
-                <div className="bg-gray-400 p-8">
+                <div className="bg-gray-400 p-8 mb-8">
                     <div className="mx-auto max-w-2xl bg-gray-300 rounded-md p-3">
                         <Image src={project.image} width="400" height="350" alt={project.title} className="mx-auto py-3"/>
-    
-                        <h4 className="text-center font-bold text-xl">Descrição</h4>
-    
-                        paragrafos de descrição
+                        <div className="p-5">
+                            <h4 className="text-center font-bold text-xl">Descrição</h4>
+                            <p className="indent-5 pb-3">{project.short_desc}</p>
+                            {project.long_desc.map(e => (
+                                <p key={e.slice(1)[0]} className="indent-5 pb-3">{e}</p>
+                            ))}
 
-                        <h4 className="text-center font-bold text-xl">Tecnologias utilizadas</h4>
+                            <h4 className="text-center font-bold text-xl">Tecnologias utilizadas</h4>
+                            <ul className="flex flex-wrap">
+                                {project.techs.map(e => (
+                                    <li key={e} className="p-3">{e}</li>
+                                ))}
+                            </ul>
     
-                        lista de tecnologias
-
-                        <h4 className="font-bold text-xl">Links</h4>
-
-                        links do projeto
-    
+                            <h4 className="font-bold text-xl">Links</h4>
+                            {project.links.map(e => (
+                                <p key={e.slice(9)[0]} className="text-blue-800"><Link href={e} target="blank">{ e.includes("github") ? "Portifólio": "Site" }</Link></p>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </>

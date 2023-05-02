@@ -4,9 +4,12 @@
         "image": "/images/upStep/upStep-cover.jpg",
         "title": "upStep",
         "short_desc": "Aperfeiçoamento da produtividade, com gráficos interativos e editáveis, com áreas de conhecimento e projeções, controle de tempo e anotações.",
-        "long_desc":[],
-        "techs": [],
-        "links":[]
+        "long_desc":[
+            "Gráfico de conhecimentos com níveis subjetivos sobre assuntos ou áreas de conhecimento e projeção do nível esperado; gráfico de gerenciamento de tempo por percentual (dividido em níveis de prioridade); área de anotações. Estes dados são salvos em um banco de dados *MongoDB em um cluster online.",
+            "Sistema de login e cadastro com armazenamento de senhas mais seguro sendo salvas em formato de hash no banco de dados *MySQL em um container *Docker, a autenticação do usuário é feita através de cookies temporários, adicionando tempo máximo de permanência logado, sendo necessário fazer login novamente."
+        ],
+        "techs": ["JavaScript","React","Bootstrap","Apex charts","Docker","MySQL","MongoDB","Express","Bcrypt","Crypto"],
+        "links":["https://github.com/Joao-Bonifacio/upStep"]
     },
     {
         "id": 2,
