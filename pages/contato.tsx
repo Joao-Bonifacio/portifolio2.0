@@ -31,6 +31,7 @@ export default function Contact() {
                 email: '',
                 message: ''
             })
+            alert("Obrigado, irei responder assim que puder 😁")
         })
         .catch(e => console.log('Erro ao enviar', e.message))
     }

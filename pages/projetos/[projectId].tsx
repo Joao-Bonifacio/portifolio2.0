@@ -12,8 +12,23 @@ export default function Projects(){
         return(
             <>
                 <h1 className="text-center text-xl text-gray-300 bg-gray-600 p-2"> {project?.title} </h1>
-                <div>
-                    <Image src={project.image} width="300" height="250" alt={project.title}/>
+                <div className="bg-gray-400 p-8">
+                    <div className="mx-auto max-w-2xl bg-gray-300 rounded-md p-3">
+                        <Image src={project.image} width="400" height="350" alt={project.title} className="mx-auto py-3"/>
+    
+                        <h4 className="text-center font-bold text-xl">Descrição</h4>
+    
+                        paragrafos de descrição
+
+                        <h4 className="text-center font-bold text-xl">Tecnologias utilizadas</h4>
+    
+                        lista de tecnologias
+
+                        <h4 className="font-bold text-xl">Links</h4>
+
+                        links do projeto
+    
+                    </div>
                 </div>
             </>
         )
