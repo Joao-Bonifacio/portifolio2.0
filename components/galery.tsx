@@ -32,14 +32,12 @@ export default function Galery() {
         "/images/upStep/upStep-soldier.jpg"
     ]
     return (
-        
-            <Swiper spaceBetween={10} centeredSlides={true} autoplay={{ delay: 3000 }}>
-                {images.map((image, index) => (
-                    <SwiperSlide key={index}>
-                        <Image src={image} width={430} height={280} alt={`Slide ${index}`} className="w-full mb-5 rounded-xl mx-auto shadow-gray-800 shadow-md"/>
-                    </SwiperSlide>
-                ))}
-            </Swiper>
-
+        <Swiper spaceBetween={10} centeredSlides={true} autoplay={{ delay: 3000 }}>
+            {images.map((image, index) => (
+                <SwiperSlide key={index}>
+                    <Image src={image} width={430} height={280} alt={`Slide ${index}`} className="w-full mb-5 rounded-xl mx-auto shadow-gray-800 shadow-md"/>
+                </SwiperSlide>
+            ))}
+        </Swiper>
     )
 }
