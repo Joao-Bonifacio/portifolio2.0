@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Hability() {
     return(
-        <div className="bg-gray-300 w-full mb-5 rounded-xl m-auto">
+        <div className="bg-gray-300 w-full mb-5 rounded-xl m-auto shadow-gray-800 shadow-md">
             <h4 className="text-center p-1 bg-gray-800 rounded-t-xl text-gray-300">Conhecimentos</h4>
             <hr />
             <div className="grid gap-1 grid-cols-3 grid-rows-1 p-5">

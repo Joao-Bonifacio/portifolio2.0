@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Expert() {
     return(
-        <div className="bg-gray-300 w-full mt-5 mb-5 rounded-xl m-auto">
+        <div className="bg-gray-300 w-full mt-5 mb-5 rounded-xl m-auto shadow-gray-800 shadow-md">
             <h4 className="text-center p-1 bg-gray-800 rounded-t-xl text-gray-300">Experiências</h4>
             <hr /> 
             <div className="p-5">

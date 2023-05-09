@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Author(){
     return( 
-        <main className="m-auto">
+        <main className="m-auto shadow-gray-800 shadow-md rounded-md">
             <Image src="/images/foto.jpg" width="215" height="215" alt="autor" className="mx-auto my-2" style={{borderRadius: '100%'}}/>
             <div className="w-full">
                 <div className="p-5 bg-gray-800 rounded-md text-gray-300"> 
