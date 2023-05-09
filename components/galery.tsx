@@ -1,6 +1,9 @@
 import { Swiper, SwiperSlide } from "swiper/react"
+import SwiperCore, { Autoplay } from "swiper"
 import "swiper/swiper-bundle.css"
 import Image from "next/image"
+
+SwiperCore.use([Autoplay])
 
 export default function Galery() {
     const images = [
@@ -29,7 +32,7 @@ export default function Galery() {
         "/images/upStep/upStep-soldier.jpg"
     ]
     return (
-        <Swiper spaceBetween={1} slidesPerView={1}>
+        <Swiper spaceBetween={1} centeredSlides={true} autoplay={{ delay: 3000 }}>
             {images.map((image, index) => (
                 <SwiperSlide key={index}>
                     <Image src={image} width={460} height={280} alt={`Slide ${index}`} className="rounded-md"/>
