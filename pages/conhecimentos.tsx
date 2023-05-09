@@ -18,8 +18,11 @@ export default function Habilitys(){
 
             <div className="p-5 px-14 mb-14 max-w-7xl mx-auto">
                 <div className="bg-gray-300 mx-auto rounded-xl">
-                    <div className="bg-gray-800 p-2 text-gray-300 rounded-t-xl">Novas tecnologias</div>
-                    <div className="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corrupti iste dolorum odio, quod voluptatem quisquam sunt ipsam nam debitis! Voluptate, error itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta sed, labore alias repellendus rem sequi dolor optio assumenda nisi ratione, corrupti veritatis ut blanditiis. Ad quidem dolor ullam asperiores voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ut eaque aperiam, quasi, nihil at excepturi, ullam odit voluptatum accusantium minus consequuntur itaque? Sapiente excepturi perspiciatis, quidem officia eaque repudiandae?</div>
+                    <h4 className="bg-gray-800 p-2 text-gray-300 rounded-t-xl">Novos conhecimentos</h4>
+                    <div className="p-5 indent-5">
+                        <p>Pretendo aprimorar meus conhecimentos nas tecnologias que já utilizo para desenvolver softwares, e aprender mais sobre outras tecnologias que não utilizo tanto ou ainda não utilizei, como é o caso de métodos de autenticação, aprimoramento de segurança nos códigos criados e novos métodos de construção de APIs por exemplo.</p>
+                        <p>Pretendo conhecer mais sobre assuntos relacionados a segurança da informação, com foco maior em segurança ofensiva (pentest e bug bounty), assim como aprimorar meus conhecimentos sobre economia e o mercado financeiro.</p>
+                    </div>
                 </div>
             </div>
         </>
