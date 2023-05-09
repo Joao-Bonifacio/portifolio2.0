@@ -18,12 +18,12 @@ export default function Home() {
             <Hability></Hability>
             <Expert></Expert>
           </div>
-          
-          <div className="mx-auto ll:w-1/2 xl:w-1/3 mm:w-1/2">
+      
+          <div className="mx-auto ll:w-1/2 xl:w-1/3 mm:w-1/2 w-full">
             <Projects></Projects>
             <Galery></Galery>
           </div>
-
+      
         </div>
       </div>
     </>
