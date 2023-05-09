@@ -2,10 +2,10 @@ import Link from "next/link"
 
 export default function Projects(){
     return(
-        <div className="bg-gray-300 w-full mb-5 rounded-xl m-auto shadow-gray-800 shadow-md">
+        <div className="bg-gray-300 mb-5 rounded-xl m-auto shadow-gray-800 shadow-md flex-col-3">
             <h4 className="text-center p-1 bg-gray-800 rounded-t-xl text-gray-300">Projetos</h4>
             <hr />
-            <ul className="p-5">
+            <ul className="p-5 flex flex-wrap">
                 <li><span className="text-blue-800">NewsLetter:</span> Site de noticias com MongoDB.</li>
                 <li><span className="text-blue-800">PokeApi:</span> Lista de pokemons.</li>
                 <li><span className="text-blue-800">upStep:</span> Site de planejamento e desenvolvimento pessoal.</li>

@@ -13,15 +13,11 @@ export default function Home() {
           <div className="rounded-xl bg-gray-300 max-w-sm min-w-sm flex flex-wrap mb-5 mx-auto mm:w-1/2 ll:w-1/2 xl:w-1/3">
             <Author></Author>
           </div>
-
-          <div></div>
           
           <div className="mx-auto ll:w-1/2 xl:w-1/3 mm:w-1/2">
             <Hability></Hability>
             <Expert></Expert>
           </div>
-
-          <div></div>
           
           <div className="mx-auto ll:w-1/2 xl:w-1/3 mm:w-1/2">
             <Projects></Projects>

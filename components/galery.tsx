@@ -32,12 +32,14 @@ export default function Galery() {
         "/images/upStep/upStep-soldier.jpg"
     ]
     return (
-        <Swiper spaceBetween={1} centeredSlides={true} autoplay={{ delay: 3000 }}>
-            {images.map((image, index) => (
-                <SwiperSlide key={index}>
-                    <Image src={image} width={460} height={280} alt={`Slide ${index}`} className="rounded-md"/>
-                </SwiperSlide>
-            ))}
-        </Swiper>
+        <div className="mb-5 m-auto relative">
+            <Swiper spaceBetween={10} centeredSlides={true} autoplay={{ delay: 3000 }} className="relative">
+                {images.map((image, index) => (
+                    <SwiperSlide key={index}>
+                        <Image src={image} width={460} height={280} alt={`Slide ${index}`} className="rounded-md"/>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
+        </div>
     )
 }
