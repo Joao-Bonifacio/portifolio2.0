@@ -16,18 +16,25 @@
         "image": "/images/newsLetter/cover.jpg",
         "title": "newsletter",
         "short_desc": "Site de notícias com integração com banco de dados mongoDB, busca de notícias e hank de mais visitadas.",
-        "long_desc":[],
-        "techs": [],
-        "links":[]
+        "long_desc":[
+            "Site de noticias criado em *nodejs dinâmicas com acesso a um banco de dados *MongoDB, o site pega todas as noticias, imagens e conteúdo das noticias do banco de dados, tornando o site totalmente dinâmico, também conta com um menu mobile quando a tela é pequena",
+            "Função de pesquisa de noticias por título, sistema de notícias mais lidas, e redirecionamento para a página do meu portfólio na área about no menu"
+        ],
+        "techs": ["Node","EJS","HTML","CSS","JavaScript","MongoDb"],
+        "links":["https://github.com/Joao-Bonifacio/newsletter"]
     },
     {
         "id": 3,
         "image": "/images/tradeBallance/cover.jpg",
         "title": "trade ballance",
         "short_desc": "Gráfico interativo de variação de patrimonio, com valores editáveis, tais valores foram salvos no navegador do cliente.",
-        "long_desc":[],
-        "techs": [],
-        "links":[]
+        "long_desc":[
+            "Gráfico off-line de variação patrimonial, os dados ficam disponíveis no navegador do cliente, descartando a necessidade do uso de banco de dados e possibilitando o uso sem necessidade de um servidor hospedando des de que possua os arquivos.",
+            "Os dados são armazenados em localStorage, ou seja, são armazenados na máquina do usuário e ficarão salvos mesmo que desligue o computador > os dados armazenados serão limpos quando o usuário resetar os valores clicando no símbolo de 'block' logo acima do gráfico",
+            "Para editar os valores: clique na seta abaixo do gráfico, e em seguida, no lápis/lixeira"
+        ],
+        "techs": ["HTML","CSS","JavaScript","Chart.js"],
+        "links":["https://trade-ballance.web.app/","https://github.com/Joao-Bonifacio/Trade-Ballance"]
     },
     {
         "id": 4,
@@ -35,43 +42,52 @@
         "title": "jogo da forca",
         "short_desc": "Jogo da forca baseado em manipulação de strings com JavaScript. todas as partes do boneco foram construidas inteiramente com CSS.",
         "long_desc":[],
-        "techs": [],
-        "links":[]
+        "techs": ["HTML","CSS","JavaScript"],
+        "links":["https://joao-bonifacio.github.io/JogoDaForca/","https://github.com/Joao-Bonifacio/JogoDaForca"]
     },
     {
         "id": 5,
         "image": "/images/movieDB/cover.jpg",
         "title": "movie hank",
-        "short_desc": "Hank de filmes/series mais assistidas. Dados fornecidos pela API the movie db, com slide de fotos e os títulos contendo nomes e sinopses.",
-        "long_desc":[],
-        "techs": [],
-        "links":[]
+        "short_desc": "Ranking de filmes/series mais assistidas. Dados fornecidos pela API the movie db, com slide de fotos e os títulos contendo nomes e sinopses.",
+        "long_desc":[
+            "Contém espaços reservados para anúncios e sidebar de links ainda mas não implementados por ter sido construido apenas no intuito de testar a integração com a API."
+        ],
+        "techs": ["HTML","CSS","JavaScript"],
+        "links":["https://joao-bonifacio.github.io/movie/","https://github.com/Joao-Bonifacio/movie"]
     },
     {
         "id": 6,
         "image": "/images/jokenpo/cover.jpg",
         "title": "jokenpo",
         "short_desc": "Jogo jokenpo, player vs máquina, com geração de jogada aleatória por parte da máquina do cliente.",
-        "long_desc":[],
-        "techs": [],
-        "links":[]
+        "long_desc":["Quando o usuário escolhe uma opção, a maquina escolhe outra aleatoriamente, então os valores são comparados e é definido um ganhador."],
+        "techs": ["HTML","CSS","JavaScript"],
+        "links":["https://joao-bonifacio.github.io/jokenpo/","https://github.com/Joao-Bonifacio/jokenpo"]
     },
     {
         "id": 7,
         "image": "/images/pokedex/secondary.jpg",
         "title": "pokedex",
-        "short_desc": "Geração de pokemons aleatórios de acordo com o número de pokemons passados como argumento na página.",
-        "long_desc":[],
-        "techs": [],
-        "links":[]
+        "short_desc": "Geração de uma lista de pokemons listados em ordem crescente de acordo com o id.",
+        "long_desc":[
+            "Você pode descobrir qual pokemon corresponde ao id digitando um numero e vendo o ultimo da lista."
+        ],
+        "techs": ["HTML","CSS","JavaScript"],
+        "links":["https://joao-bonifacio.github.io/pokedex/","https://github.com/Joao-Bonifacio/pokedex"]
     },
     {
         "id": 8,
         "image": "/images/calcOB/cover.jpg.png",
         "title": "calculadora OB",
         "short_desc": "Programa de linha de comando em python para projeções de resultados/rentabilidade em opções binárias de acordo com cada tipo de gerenciamento.",
-        "long_desc":[],
-        "techs": [],
-        "links":[]
+        "long_desc":[
+            "Possui opções para cálculo de projeção de lucros em day trade ou opções binárias com 3 tipos de gerenciamento: mão fixa, com soros ou com martingale.",
+            "Mão fixa = todos os aportes do mesmo valor.",
+            "Soros = aportes com juros compostos baseados no lucro do aporte anterior.",
+            "Martingale = aportes maiores após um prejuízo."
+        ],
+        "techs": ["Python"],
+        "links":["https://github.com/Joao-Bonifacio/Projetos-Python/tree/main/Calculos-Op%C3%A7%C3%B5es-Bin%C3%A1rias"]
     }
 ]
