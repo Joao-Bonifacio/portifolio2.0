@@ -25,7 +25,7 @@ export default function About(){
                 <Image src="/images/foto.jpg" width="280" height="280" alt="autor" className="mx-6" style={{borderRadius: '100%'}}/>
                 <div className="max-w-md p-5 mx-6 my-auto indent-5 bg-gray-200 rounded-md">
                     <p>
-                        Tenho {age} anos, Estou cursando Ciências da Computação na Universidade Estácio no *4º semestre*.
+                        Tenho {age} anos, Estou cursando Ciências da Computação e Economia na Universidade Estácio no *4º e 1º semestre* respectivamente.
                         Descobri ainda quando pequeno que eu tinha um fascínio em entender o funcionamento de sistemas e as interações de 
                         cada elemento para formar algo maior.
                     </p>

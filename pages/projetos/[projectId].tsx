@@ -31,7 +31,7 @@ export default function Projects(){
     
                             <h4 className="font-bold text-xl">Links</h4>
                             {project.links.map(e => (
-                                <p key={e.slice(9)[0]} className="text-blue-800"><Link href={e} target="blank">{ e.includes("github") ? "Portifólio": "Site" }</Link></p>
+                                <p key={e.slice(9)[0]} className="text-blue-800"><Link href={e} target="blank">{ e.includes("github.com") ? "Portifólio": "Site" }</Link></p>
                             ))}
                         </div>
                     </div>
