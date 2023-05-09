@@ -1,9 +1,40 @@
+import { Swiper, SwiperSlide } from "swiper/react"
+import "swiper/swiper-bundle.css"
 import Image from "next/image"
 
-export default function Galery(){
-    return(
-        <div className="bg-gray-300 p-5 rounded-xl m-auto shadow-gray-800 shadow-md"> 
-            <Image src="" width="200" height="230" alt="..." />
-        </div>
+export default function Galery() {
+    const images = [
+        "/images/calcOB/cover.jpg.png",
+        "/images/hangMan/cover.jpg",
+        "/images/hangMan/secondary.jpg",
+        "/images/jokenpo/cover.jpg",
+        "/images/jokenpo/secondary.jpg",
+        "/images/linkedin/html.png",
+        "/images/linkedin/css.png",
+        "/images/movieDB/cover.jpg",
+        "/images/movieDB/secondary.jpg",
+        "/images/newsLetter/cover.jpg",
+        "/images/newsLetter/more.jpg",
+        "/images/newsLetter/news.jpg",
+        "/images/newsLetter/search.jpg",
+        "/images/pokedex/cover.jpg",
+        "/images/pokedex/secondary.jpg",
+        "/images/tradeBallance/cover.jpg",
+        "/images/tradeBallance/edit.jpg",
+        "/images/tradeBallance/storage.jpg",
+        "/images/upStep/upStep-cover.jpg",
+        "/images/upStep/upStep-DB.jpg",
+        "/images/upStep/upStep-login.jpg",
+        "/images/upStep/upStep-signup.jpg",
+        "/images/upStep/upStep-soldier.jpg"
+    ]
+    return (
+        <Swiper spaceBetween={1} slidesPerView={1}>
+            {images.map((image, index) => (
+                <SwiperSlide key={index}>
+                    <Image src={image} width={460} height={280} alt={`Slide ${index}`} className="rounded-md"/>
+                </SwiperSlide>
+            ))}
+        </Swiper>
     )
 }
