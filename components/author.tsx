@@ -8,7 +8,7 @@ export default function Author(){
             <div className="w-full">
                 <div className="p-5 bg-gray-800 rounded-md text-gray-300"> 
                     <h4>João Júnior</h4>
-                    <p>Cursando Ciências da computação e Economia</p>
+                    <p>Cursando <span className="text-blue-400">Ciências da computação</span> e <span className="text-blue-400">Economia</span></p>
                     <p>Desenvolvedor Full-Stack</p>
                 </div> 
                 <p className="p-5 mt-[-6px]">
