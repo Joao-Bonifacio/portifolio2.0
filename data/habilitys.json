@@ -1,50 +1,66 @@
 [
     {
-        "title": "HTML",
-        "desc": ""
-    },
-    {
-        "title": "CSS",
-        "desc": ""
+        "title": "HTML + CSS",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corrupti iste dolorum odio, quod voluptatem quisquam sunt ipsam nam debitis! Voluptate, error itaque!"
     },
     {
         "title": "JavaScript",
-        "desc": ""
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corrupti iste dolorum odio, quod voluptatem quisquam sunt ipsam nam debitis! Voluptate, error itaque!"
     },
     {
-        "title": "",
-        "desc": ""
+        "title": "Node",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corrupti iste dolorum odio, quod voluptatem quisquam sunt ipsam nam debitis! Voluptate, error itaque!"
     },
     {
-        "title": "",
-        "desc": ""
+        "title": "React",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corrupti iste dolorum odio, quod voluptatem quisquam sunt ipsam nam debitis! Voluptate, error itaque!"
     },
     {
-        "title": "",
-        "desc": ""
+        "title": "TypeScipt",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corrupti iste dolorum odio, quod voluptatem quisquam sunt ipsam nam debitis! Voluptate, error itaque!"
     },
     {
-        "title": "",
-        "desc": ""
+        "title": "Next",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corrupti iste dolorum odio, quod voluptatem quisquam sunt ipsam nam debitis! Voluptate, error itaque!"
     },
     {
-        "title": "",
-        "desc": ""
+        "title": "Git",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corrupti iste dolorum odio, quod voluptatem quisquam sunt ipsam nam debitis! Voluptate, error itaque!"
     },
     {
-        "title": "",
-        "desc": ""
+        "title": "Linux",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corrupti iste dolorum odio, quod voluptatem quisquam sunt ipsam nam debitis! Voluptate, error itaque!"
     },
     {
-        "title": "",
-        "desc": ""
+        "title": "Express",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corrupti iste dolorum odio, quod voluptatem quisquam sunt ipsam nam debitis! Voluptate, error itaque!"
     },
     {
-        "title": "",
-        "desc": ""
+        "title": "MySQL",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corrupti iste dolorum odio, quod voluptatem quisquam sunt ipsam nam debitis! Voluptate, error itaque!"
     },
     {
-        "title": "",
-        "desc": ""
+        "title": "MongoDB",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corrupti iste dolorum odio, quod voluptatem quisquam sunt ipsam nam debitis! Voluptate, error itaque!"
+    },
+    {
+        "title": "Bootstrap e Tailwind",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corrupti iste dolorum odio, quod voluptatem quisquam sunt ipsam nam debitis! Voluptate, error itaque!"
+    },
+    {
+        "title": "Python",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corrupti iste dolorum odio, quod voluptatem quisquam sunt ipsam nam debitis! Voluptate, error itaque!"
+    },
+    {
+        "title": "Cyber Security",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corrupti iste dolorum odio, quod voluptatem quisquam sunt ipsam nam debitis! Voluptate, error itaque!"
+    },
+    {
+        "title": "Mercado financeiro",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corrupti iste dolorum odio, quod voluptatem quisquam sunt ipsam nam debitis! Voluptate, error itaque!"
+    },
+    {
+        "title": "Desenho (hobby)",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corrupti iste dolorum odio, quod voluptatem quisquam sunt ipsam nam debitis! Voluptate, error itaque!"
     }
 ]
