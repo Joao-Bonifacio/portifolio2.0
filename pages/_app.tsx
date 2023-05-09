@@ -10,6 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Portfolio</title>
+        <link rel="shortcut icon" href="/icons/livro.png"></link>
       </Head>
       <Header></Header>
       <Component {...pageProps} />
