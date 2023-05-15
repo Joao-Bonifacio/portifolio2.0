@@ -1,82 +1,38 @@
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa"
 import { BiMailSend } from "react-icons/bi";
 import Link from "next/link"
-import axios from "axios"
-import React, { useState } from "react"
-
-interface Data{
-    name: string;
-    email: string;
-    message: string;
-}
 
 export default function Contact() {
-    const [data, setData] = useState<Data>({
-        name: '',
-        email: '',
-        message: ''
-    })
-
-    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-        const {name, value} = e.target
-        setData(oldData => ({...oldData, [name]: value}))
-    }
-
-    const submitForm = (e: React.FormEvent) => {
-        e.preventDefault()
-        axios.post('./api/contactMessage', data)
-        .then(() => {
-            setData({
-                name: '',
-                email: '',
-                message: ''
-            })
-            alert("Obrigado, irei responder assim que puder 😁")
-        })
-        .catch(e => console.log('Erro ao enviar', e.message))
-    }
-
     return (
         <>
             <h1 className="text-center text-xl text-gray-300 bg-gray-600 p-2"> Contato </h1>
             <div className="flex flex-wrap p-8 bg-gray-300">
-                <div className="bg-gray-400 p-5 rounded-md mb-8 mx-auto">
-                    <h1 className="text-center text-xl text-gray-300 bg-gray-600 p-2 rounded-t-md"> Enviar Mensagem </h1>
-                    <form method="post" className="bg-gray-300 p-5 rounded-b-md max-w-md" onSubmit={submitForm}>
-                        <input type="text" name="name" value={data.name} placeholder="Nome*:" className="p-3 rounded-md w-full min-w-7 mb-3" size={0} required onChange={handleChange}/>
-                        <input type="email" name="email" placeholder="Email:" value={data.email} className="p-3 mr-0 rounded-md w-full mb-3" size={0} onChange={handleChange}/>
-                        <textarea name="message" cols={0} rows={4} placeholder="Digitar mensagem*:" value={data.message} className="p-3 rounded-md w-full mb-5" style={{resize:'none'}} required onChange={handleChange}></textarea>
-                        <div className="text-center">
-                            <button type="submit" className="px-7 py-2 bg-blue-400 rounded-md hover:bg-blue-500"> Enviar </button>
-                        </div>
-                    </form>
+                <div className="bg-gray-300 p-1 rounded-md mb-8 mx-auto">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdOHOQiWq7CPTLkgi5eDfyGGI7IfA09KYrLeWzOxm5RadncKg/viewform?embedded=true" width="540" height="619">Carregando…</iframe>
                 </div>
-
                 <div className="bg-gray-300 p-1 rounded-md mb-8 max-w-3xl mx-auto">
                     <h1 className="text-4xl mb-8"> Redes Sociais </h1>
                     <div className="flex flex-wrap mt-1">
                         <Link href="https://github.com/Joao-Bonifacio" target="blank">
-                            <abbr title="GitHub"><FaGithub className="mr-3 text-8xl text-gray-700 hover:text-gray-800" /></abbr>
+                            <abbr title="GitHub"><FaGithub className="mr-3 text-8xl text-gray-800" /></abbr>
                         </Link>
                         <Link href="https://www.linkedin.com/in/jo%C3%A3o-j%C3%BAnior-7499b6218/" target="blank">
                             <abbr title="Linkedin">
-                                <FaLinkedin className="mr-3 text-8xl text-blue-700 hover:text-blue-800" />
+                                <FaLinkedin className="mr-3 text-8xl text-blue-700" />
                             </abbr>
                         </Link>
                         <Link href="https://www.instagram.com/jao_jj_/" target="blank">
                             <abbr title="Instagram">
-                                <FaInstagram className="text-8xl text-purple-700 hover:text-purple-800" />
+                                <FaInstagram className="text-8xl text-purple-700" />
                             </abbr>
                         </Link>
                         <Link href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNtdgsgqDrdgKfFqsHFTGjMszMfGhGWSMlDfZxRcZMQTpbjJznJPfmXZLrSknvGmHVMztL" target="blank">
-                            <abbr title="Enviar e-mail"><BiMailSend className="text-8xl text-red-700 hover:text-red-800"/></abbr>
+                            <abbr title="Enviar e-mail"><BiMailSend className="text-8xl text-red-700"/></abbr>
                         </Link>
                     </div>
+
                 </div>
             </div>
-            <div className="bg-gray-300 h-11"></div>
-            <div className="bg-gray-300 h-11"></div>
-            <div className="bg-gray-300 h-11"></div>
         </>
     )
 
