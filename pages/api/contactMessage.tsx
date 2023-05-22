@@ -9,7 +9,6 @@ const notion = new Client({
 export default async function handler(req: NextApiRequest, res: NextApiResponse){
 
     const { name, email, message } = req.body
-    console.log(req.body, name, email, message)
     await notion.pages.create({
         parent: {
             database_id: process.env.NOTION_DATABASE_ID || ''
